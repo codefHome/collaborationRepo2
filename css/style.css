@@ -72,8 +72,12 @@ body{
     margin:20px 0px 50px 20px;
    
   }
-  .video{
+  #video{
     margin:10px 0px 0px 300px;
+   display: flex;
+   align-items:center;
+  height: 20vw;
+  widht: 200vw;
   }
   #flex-container{
     display:flex;
