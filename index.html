@@ -7,45 +7,65 @@
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<header id="header">
-  <div>
-    <img id="header-img"
-    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
-    alt="alternative image"
-    />
-  </div>
-  <nav id="nav-bar">
-    <ul>
-      <li> <a class='nav-link' href="#features" >Feaures</a></li>
-      <li> <a class='nav-link' href="#how-it-works" >How It Works</a></li>
-      <li> <a class='nav-link' href="#pricing" >Pricing</a></li>
-    </ul>
-  </nav>
-</header>
-<section id="features">
-  <h2>Handcrafted, home-made masterpieces</h2>
-  <form id="form" action="https://www.freecodecamp.com/email-submit">
-    <input id="email" 
-    placeholder="Enter your email address"
-    type="email"
-    name="email"
-    />
-    <input id="submit" type="submit" value="Submit"/>
-  </form>
-</section>
-<section id="how-it-works">
-  <iframe 
-  id="video"
-  height="300"
-  src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0"
-  
-  >
-
-  </iframe>
-</section>
-<section id="pricing"></section>
-    
-    <script  src="js/index.js"></script>
-  </body>
+    <header id="header">
+      <img id="header-img"  src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="">
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#how-it-works">How it Works</a>
+        <a class="nav-link"  href="#pricing">Pricing</a>
+      </nav>
+    </header>
+    <main id="main-container">
+      <section id="form-holder">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <label id="label" for="email"><h1>Handcrafted,home-made masterpieces</h1></label>
+          <input id="email" type="email" required placeholder="Enter your email"/></br>
+        <button id="submit" type="submit" name="Get Started">Get Strated</button>
+        </form>
+      </section>
+    <div id="features-container">
+     
+      <section id="features">
+      <div class="icons">
+        <i class="fa fa-3x fa-fire"></i>
+      </div>
+      <div>
+        <h1>Premium Materials</h1>
+        <h4>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</h4>
+     
+      </div>
+      <div class="icons">
+        <i class="fa fa-3x fa-truck"></i>
+      </div>
+      <div>
+        <h1>Fast Shippiing</h1>
+        <h4>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns iff you are not satisfied.</h4>
+     
+      </div>
+         <div class="icons">
+        <i class="fa fa-3x fa-battery-full"></i>
+      </div>
+      <div>
+        <h1>Quality Assurance</h1>
+        <h4>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</h4>
+     
+      </div>
+      </section>
+      <section id="how-it-works">
+      <div class="video">
+        <embed type="video/webm"  src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" width="600" height="200">
+      </div>
+      </section>
+      <section id="pricing">
+      <div id="flex-container">
+        <div class="boxes">
+          <div class="box-head"><h1>TENOR TROMBONE</h1></div>
+        </div>
+        <div class="boxes"></div>
+        <div class="boxes"></div>
+      </div>
+      </section>
+    </div>
+   
+    </main>
 </html>
